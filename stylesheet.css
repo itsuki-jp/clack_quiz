@@ -1,0 +1,44 @@
+input {
+    display: none;
+}
+
+#choice {
+    margin-bottom: 20px;
+}
+
+label {
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    line-height: 45px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+input:checked+label {
+    background-color: red;
+}
+
+body {
+    text-align: center;
+}
+
+label {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#verify_btn {
+    width: 100px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    background: #6BCBF6;
+    border-radius: 10px;
+}
+
+#verify_btn:hover {
+    background: red;
+}
